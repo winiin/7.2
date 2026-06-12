@@ -26,10 +26,10 @@ function fetchStudentsApi() {
                 resolve({
                     status: 'success',
                     data: [
-                        { id: 101, name: "API Daneka", age: 17, course: 1 },
-                        { id: 102, name: "API Aslan", age: 18, course: 2 },
-                        { id: 103, name: "API Miras", age: 22, course: 3 },
-                        { id: 104, name: "API Malik", age: 25, course: 4 }
+                        { id: 101, name: "API Daneka", age: 21, course: 3 },
+                        { id: 102, name: "API Aslan", age: 23, course: 4 },
+                        { id: 103, name: "API Malika", age: 18, course: 1 },
+                        { id: 104, name: "API Aou", age: 19, course: 2 }
                     ]
                 });
             }, 800);
